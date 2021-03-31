@@ -44,7 +44,7 @@ function displayWeather(response) {
   document.querySelector("#humidity").innerHTML = Math.round(
     response.data.main.humidity
   );
-  console.log(response);
+  celsiusTemperature = Math.round(response.data.main.temp);
 }
 function search(city) {
   let apiKey = "d472df3cc457416a11c7918c00d8eaa1";
@@ -77,7 +77,7 @@ button.addEventListener("click", getCurrentPosition);
 function showCelsius(event) {
   event.preventDefault();
   let currentTemperature = document.querySelector("#currentTemp");
-  currentTemperature.innerHTML = "11";
+  currentTemperature.innerHTML = Math.round(celsiusTemperature);
 }
 let celsius = document.querySelector("#celsius-link");
 celsius.addEventListener("click", showCelsius);
@@ -85,8 +85,10 @@ celsius.addEventListener("click", showCelsius);
 function showFahrenheit(event) {
   event.preventDefault();
   let currentTemperature = document.querySelector("#currentTemp");
-  currentTemperature.innerHTML = Math.round((11 * 9) / 5 + 32);
+  currentTemperature.innerHTML = Math.round((celsiusTemperature * 9) / 5 + 32);
 }
+let celsiusTemperature = null;
+
 let fahrenheit = document.querySelector("#fahrenheit-link");
 fahrenheit.addEventListener("click", showFahrenheit);
 
