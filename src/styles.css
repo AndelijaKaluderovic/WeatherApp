@@ -35,11 +35,12 @@ li:first-letter {
   max-width: 650px;
 }
 .header,
-.main {
+.main,
+.bottom {
   border: none;
   border-radius: 5px;
   margin: 5px;
-  background: rgba(32, 32, 32, 0.747);
+  background: rgba(32, 32, 32, 0.6);
   color: azure;
 }
 .header {
@@ -67,7 +68,7 @@ li:first-letter {
 .units a {
   text-decoration: none;
 }
-.loc {
-  background: black;
-  padding: 0;
+.bottom {
+  margin: 10px;
+  text-align: center;
 }
