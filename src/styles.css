@@ -48,6 +48,7 @@ button {
   margin: 5px;
   background: rgba(10, 10, 10, 0.795);
   color: #f2edd7;
+  padding: 5px;
 }
 .header {
   text-align: center;
@@ -56,29 +57,21 @@ button {
   font-size: 39px;
   text-align: center;
 }
-#bigIcon {
-  width: 150px;
-}
 .codedBy {
   color: rgb(10, 10, 10);
   font-weight: bolder;
   font-size: 15px;
   text-align: center;
 }
-
-#currentTemp {
-  font-size: 45px;
-}
-.units .active {
-  color: #f2edd7;
-  cursor: default;
-}
-.units a {
-  text-decoration: none;
-}
 .bottom {
   margin: 10px;
   text-align: center;
+}
+#currentTemp {
+  font-size: 45px;
+}
+#bigIcon {
+  width: 150px;
 }
 #icon {
   background: #a3a08fb6;
