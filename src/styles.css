@@ -6,15 +6,17 @@ body {
   font-family: "Pangolin", cursive;
 }
 h2 {
-  color: #e99233;
-  font-weight: bolder;
+  color: #f2edd7;
   text-align: center;
+  font-size: 35px;
 }
 form {
   padding-bottom: 10px;
 }
 input {
-  background: #e99133e0;
+  background: #f2edd7;
+  border: none;
+  border-radius: 5px;
 }
 li {
   font-size: 20px;
@@ -22,6 +24,11 @@ li {
 }
 li:first-letter {
   text-transform: capitalize;
+}
+button {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
 }
 .units {
   font-size: 20px;
@@ -37,10 +44,10 @@ li:first-letter {
 .main,
 .bottom {
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 5px;
-  background: rgba(32, 32, 32, 0.6);
-  color: azure;
+  background: rgba(10, 10, 10, 0.795);
+  color: #f2edd7;
 }
 .header {
   text-align: center;
@@ -49,19 +56,20 @@ li:first-letter {
   font-size: 35px;
   text-align: center;
 }
-.bigCloud {
-  font-size: 150px;
+#bigIcon {
+  width: 150px;
 }
 .codedBy {
+  color: #f2edd7;
+  font-size: 15px;
   text-align: center;
-  color: #8f591f;
 }
 
 #currentTemp {
   font-size: 45px;
 }
 .units .active {
-  color: azure;
+  color: #f2edd7;
   cursor: default;
 }
 .units a {
@@ -70,4 +78,8 @@ li:first-letter {
 .bottom {
   margin: 10px;
   text-align: center;
+}
+#icon {
+  background: #a3a08fb6;
+  border-radius: 25px;
 }
