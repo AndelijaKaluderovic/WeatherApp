@@ -126,26 +126,4 @@ function getCurrentPosition(position) {
 let button = document.querySelector("#locationButton");
 button.addEventListener("click", getCurrentPosition);
 
-function showCelsius(event) {
-  event.preventDefault();
-  fahrenheit.classList.remove("active");
-  celsius.classList.add("active");
-  let currentTemperature = document.querySelector("#currentTemp");
-  currentTemperature.innerHTML = Math.round(celsiusTemperature);
-}
-let celsius = document.querySelector("#celsius-link");
-celsius.addEventListener("click", showCelsius);
-
-function showFahrenheit(event) {
-  event.preventDefault();
-  fahrenheit.classList.add("active");
-  celsius.classList.remove("active");
-  let currentTemperature = document.querySelector("#currentTemp");
-  currentTemperature.innerHTML = Math.round((celsiusTemperature * 9) / 5 + 32);
-}
-let celsiusTemperature = null;
-
-let fahrenheit = document.querySelector("#fahrenheit-link");
-fahrenheit.addEventListener("click", showFahrenheit);
-
 search("Stockholm");

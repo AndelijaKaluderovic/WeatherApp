@@ -53,14 +53,15 @@ button {
   text-align: center;
 }
 .myCity {
-  font-size: 35px;
+  font-size: 39px;
   text-align: center;
 }
 #bigIcon {
   width: 150px;
 }
 .codedBy {
-  color: #f2edd7;
+  color: rgb(10, 10, 10);
+  font-weight: bolder;
   font-size: 15px;
   text-align: center;
 }
