@@ -1,6 +1,6 @@
 body {
   padding-top: 20px;
-  background-image: url(https://store-images.s-microsoft.com/image/apps.20898.14610786053843576.c718bbac-780a-4f0a-9096-92a785a8770e.88437c00-e920-4364-a1ef-23aa039bbe91?w=1399&h=874&q=90&format=jpg);
+  background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Pangolin", cursive;
@@ -66,6 +66,9 @@ button {
 .bottom {
   margin: 10px;
   text-align: center;
+}
+.link {
+  color: white;
 }
 #currentTemp {
   font-size: 45px;
