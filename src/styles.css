@@ -2,7 +2,8 @@ body {
   padding-top: 20px;
   background-image: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 850px;
+  background-position: center;
   font-family: "Pangolin", cursive;
 }
 h2 {
